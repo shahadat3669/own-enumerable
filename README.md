@@ -124,7 +124,7 @@ Runs the app in the terminal.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **We will implement dragons API**
+- [ ] **We will implement Select Enumerable**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
