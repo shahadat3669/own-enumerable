@@ -23,4 +23,4 @@ puts(new_list.any? { |e| e == 2 })
 puts(new_list.any? { |e| e == 5 })
 
 # Test #filter
-puts(new_list.filter(&:even))
+puts(new_list.filter(&:even?))
