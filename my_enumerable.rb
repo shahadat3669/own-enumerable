@@ -10,7 +10,7 @@ module MyEnumerable
     false
   end
 
-  def filterr
+  def filter
     arr = []
     each { |el| arr << el if yield el }
     arr
