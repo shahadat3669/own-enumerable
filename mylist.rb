@@ -12,7 +12,12 @@ class Mylist
   end
 end
 
-# new_list = Mylist.new([1, 1, 2, 4]) # true
-# new_list = Mylist.new([1, 10, 20, 4]) #false ok
+new_list = Mylist.new([1, 2, 3, 4]) # true
 
+# Test #all?
 puts(new_list.all? { |e| e < 5 })
+puts(new_list.all? { |e| e > 5 })
+
+# Test #any?
+puts(new_list.any? { |e| e == 2 })
+puts(new_list.any? { |e| e == 5 })
